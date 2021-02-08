@@ -52,7 +52,7 @@ body {
   font-size: 3rem;
   line-height: 2rem;
   padding-top: 30px;
-  padding-right: 10px;
+  margin-left: 15px;
   white-space: nowrap;
 }
 
@@ -70,7 +70,27 @@ body {
 }
 
 .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 20px;
 }
 
 .right {
+}
+
+.bocadillo {
+  background-color: #f7f2e4;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0.9;
+}
+
+.bocadillo > h4 {
+  margin: 0;
+}
+
+.bocadillo.aboutMe {
+  font-size: 0.8rem;
 }
