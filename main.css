@@ -5,14 +5,23 @@ body {
 }
 
 .container {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 744px;
-  height: 1052px;
+  height: 950px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4), -2px -2px 5px rgba(0, 0, 0, 0.4);
   background-image: url("imgs/background.jpg");
   background-size: cover;
   background-position: 50% 100%;
+}
+
+.location {
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  font-family: "Francois One", sans-serif;
+  color: #505448;
 }
 
 .top {
@@ -76,9 +85,27 @@ body {
   right: 10%;
   width: 300px;
   height: 100px;
-  border: 1px solid black;
-  text-align: center;
-  background-color: lightsalmon;
+  display: flex;
+  flex-direction: column;
+  color: #505448;
+  margin-bottom: 10px;
+}
+
+.contact > * {
+  margin-bottom: 5px;
+}
+
+.contact > .fas::before,
+.contact > .fab::before {
+  padding-right: 10px;
+}
+
+.contact span,
+.contact a {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  color: #5c6076;
+  text-decoration: none;
 }
 
 .bottom {
@@ -172,4 +199,26 @@ body {
 }
 .skillLevel.lvl9 {
   width: 95%;
+}
+
+.experienceContainer > h6 {
+  margin: 10px 0;
+  font-size: 1.3rem;
+  padding-left: 5px;
+}
+
+.experienceContainer > p {
+  margin: 0;
+  text-align: justify;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.experienceCompany {
+  color: #e3a6b0;
+  font-size: 1.4rem;
+}
+
+.experienceDate {
+  font-size: 1.1rem;
 }
