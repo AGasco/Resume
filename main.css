@@ -11,7 +11,7 @@ body {
   width: 744px;
   height: 950px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4), -2px -2px 5px rgba(0, 0, 0, 0.4);
-  background-image: url("imgs/background.jpg");
+  background-image: url('imgs/background.jpg');
   background-size: cover;
   background-position: 50% 100%;
 }
@@ -20,7 +20,7 @@ body {
   position: absolute;
   top: -15px;
   right: 20px;
-  font-family: "Francois One", sans-serif;
+  font-family: 'Francois One', sans-serif;
   color: #505448;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .top > .nameContainer {
-  font-family: "Francois One", sans-serif;
+  font-family: 'Francois One', sans-serif;
   align-self: flex-start;
   padding-top: 20px;
   color: #505448;
@@ -73,7 +73,7 @@ body {
 
 .nameContainer > h4 {
   font-size: 1.2rem;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   text-align: right;
   padding-right: 20px;
   color: #5c6076;
@@ -102,7 +102,7 @@ body {
 
 .contact span,
 .contact a {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   color: #5c6076;
   text-decoration: none;
@@ -136,12 +136,12 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  font-family: "Big Shoulders Display", cursive;
+  font-family: 'Big Shoulders Display', cursive;
 }
 
 .bocadillo > h4 {
   margin: 0;
-  font-family: "Francois One", sans-serif;
+  font-family: 'Francois One', sans-serif;
   /* text-align: center; */
   margin-right: 15px;
   width: 100%;
@@ -199,6 +199,10 @@ body {
 }
 .skillLevel.lvl9 {
   width: 95%;
+}
+
+.experienceContainer {
+  padding-top: 3px;
 }
 
 .experienceContainer > h6 {
