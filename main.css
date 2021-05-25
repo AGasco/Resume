@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 744px;
-  height: 950px;
+  height: 975px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4), -2px -2px 5px rgba(0, 0, 0, 0.4);
   background-image: url('imgs/background.jpg');
   background-size: cover;
@@ -40,6 +40,7 @@ body {
   flex: 1.2;
   padding: 20px;
   padding-top: 0;
+  padding-bottom: 0;
 }
 
 .top {
