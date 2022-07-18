@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 744px;
-  height: 975px;
+  height: 990px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4), -2px -2px 5px rgba(0, 0, 0, 0.4);
   background-image: url('imgs/background.jpg');
   background-size: cover;
@@ -48,8 +48,6 @@ body {
   align-items: center;
   justify-content: space-around;
   position: relative;
-  /* background-image: none !important;
-  background-color: white; */
 }
 
 .top > img {
@@ -69,6 +67,7 @@ body {
   line-height: 2rem;
   padding-top: 30px;
   margin-left: 15px;
+  margin-bottom: 20px;
   white-space: nowrap;
 }
 
@@ -76,14 +75,15 @@ body {
   font-size: 1.2rem;
   font-family: 'Quicksand', sans-serif;
   text-align: right;
+  margin: 10px 0;
   padding-right: 20px;
   color: #5c6076;
 }
 
 .contact {
   position: absolute;
-  bottom: 2%;
-  right: 10%;
+  bottom: 1rem;
+  right: 5rem;
   width: 300px;
   height: 100px;
   display: flex;
@@ -170,6 +170,14 @@ body {
   margin: 0;
 }
 
+.bocadillo.skills {
+  padding-top: 2px;
+}
+
+.bocadillo.otherSkills {
+  padding-top: 0;
+}
+
 .skillTitle {
   margin: 0;
 }
@@ -193,7 +201,7 @@ body {
   width: 69%;
 }
 .skillLevel.lvl7 {
-  width: 79%;
+  width: 85%;
 }
 .skillLevel.lvl8 {
   width: 89%;
@@ -216,12 +224,15 @@ body {
   margin: 0;
   text-align: justify;
   padding-right: 20px;
-  /* padding-bottom: 20px; */
 }
 
 .experienceCompany {
   color: #e3a6b0;
   font-size: 1.4rem;
+}
+
+.experienceContainer.first {
+  margin-top: 7px;
 }
 
 .experienceDate {
