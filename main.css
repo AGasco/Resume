@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 744px;
-  height: 990px;
+  height: 1180px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4), -2px -2px 5px rgba(0, 0, 0, 0.4);
   background-image: url('imgs/background.jpg');
   background-size: cover;
@@ -58,7 +58,7 @@ body {
 .top > .nameContainer {
   font-family: 'Francois One', sans-serif;
   align-self: flex-start;
-  padding-top: 20px;
+  padding-top: 10px;
   color: #505448;
 }
 
@@ -171,7 +171,7 @@ body {
 }
 
 .bocadillo.skills {
-  padding-top: 2px;
+  padding-top: 0px;
 }
 
 .bocadillo.otherSkills {
@@ -231,12 +231,12 @@ body {
   font-size: 1.4rem;
 }
 
-.experienceContainer.first {
-  margin-top: 7px;
-}
-
 .experienceDate {
   font-size: 1.1rem;
+}
+
+.bocadillo.education {
+  margin-top: 21px;
 }
 
 .educationContainer {
